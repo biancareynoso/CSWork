@@ -12,7 +12,6 @@ setInterval(makeRandomCircle, 500);
         var randomRadius = Math.floor(Math.random()*70);
         var myColor = colors[index];
         drawFilledCircle(randomX, randomY, randomRadius, myColor);
-
     }
 setInterval(makeRandomRectangle, 600);
     function makeRandomRectangle()
